@@ -2,10 +2,10 @@
 A hybrid workflow that combines human understanding with AI efficiency to create high-quality Anki flashcards following expert memorisation principles.
 
 ## Quick Start
-1. Create a new Claude Project
+1. Create a new LLM chat
 3. Learn your material first (read & understand completely)
 2. Write a template prompt, add flashcard guidelines as `guidelines.txt` file, add source material and potential notes
-4. Generate flashcards using Claude
+4. Generate flashcards using LLM of choice
 5. Import, verify, and enhance in Anki
 
 ## The Workflow
@@ -15,7 +15,7 @@ A hybrid workflow that combines human understanding with AI efficiency to create
 - Optionally, create rough notes with main ideas and questions
 
 ### 2. AI-Assisted Generation (5-10 mins)
-Prompt Claude with:
+Prompt selected LLM with:
 ```
 I need Anki flashcards for the following material.
 Please follow the guidelines.txt.
@@ -24,7 +24,7 @@ Please follow the guidelines.txt.
 [Optional: My notes: ...]
 ```
 
-Claude generates:
+LLM generates:
 - Atomic questions (one idea per card)
 - Multiple angles for important concepts
 - Source references [page/timestamp]
