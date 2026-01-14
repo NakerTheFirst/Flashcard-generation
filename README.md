@@ -1,5 +1,5 @@
 # Flashcard-generation
-A hybrid workflow that combines human understanding with AI efficiency to create high-quality Anki flashcards following expert memorisation principles.
+A hybrid workflow that combines human understanding with AI efficiency to create high-quality Anki flashcards following expert memorisation principles. A full, comprehensive guide can be found in [workflow_guide.md](https://github.com/NakerTheFirst/Flashcard-generation/blob/main/workflow_guide.md).
 
 ## Quick Start
 1. Create a new LLM chat
